@@ -11,7 +11,7 @@
   }
 }
 
-.cart-item, .cart-summary {
+.cart-item {
   background-color: #fff;
   border-radius: 12px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
@@ -28,6 +28,17 @@
   border-radius: 8px;
   object-fit: cover;
 }
+
+.cart-summary{
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  padding: 20px;
+  margin-bottom: 20px;
+  align-items: center;
+  gap: 20px;
+}
+
 
 .item-details {
   flex-grow: 1;

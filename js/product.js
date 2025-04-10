@@ -46,3 +46,25 @@ function updateCartCount() {
   const countEl = document.getElementById('cart-count');
   if (countEl) countEl.textContent = count;
 }
+
+
+
+
+const searchInput = document.querySelector('.search input');
+
+searchInput.addEventListener('input', () => {
+  const searchTerm = searchInput.value.toLowerCase();
+  const cards = document.querySelectorAll('.product-card');
+
+  cards.forEach(card => {
+    const title = card.querySelector('h3').textContent.toLowerCase();
+    if (title.includes(searchTerm)) {
+      card.style.display = 'block';
+    } else {
+      card.style.display = 'none';
+    }
+  });
+});
+
+
+

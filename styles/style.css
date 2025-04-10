@@ -186,7 +186,7 @@ header .container nav ul li a #cart-count {
   margin-bottom: 20px;
 }
 
-.cart-item, .cart-summary {
+.cart-item {
   background-color: #fff;
   border-radius: 12px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
@@ -203,6 +203,16 @@ header .container nav ul li a #cart-count {
   border-radius: 8px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.cart-summary {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+  margin-bottom: 20px;
+  align-items: center;
+  gap: 20px;
 }
 
 .item-details {
